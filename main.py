@@ -50,5 +50,6 @@ def process_image(input_image: bytes, name_with_ext: str) -> None:
     final_image.save(name_with_ext)
     print("SAVED")
 
+
 if __name__ == '__main__':
     process_image(open("sss.jpg", "rb").read(), "test.png")
